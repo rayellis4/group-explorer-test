@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../node_modules/mocha/mocha.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="mocha"></div>
+        <script src="../node_modules/mocha/mocha.js"></script>
+        <script src="../node_modules/chai/chai.js"></script>
+        <script>
+          function obj2string (arg) {
+            switch(typeof(arg)) {
+            case 'boolean':
+              return arg.toString()
+            case 'number':
+              return arg.toString()
+            case 'string':
+              return arg
+            case 'object':
+              if (Array.isArray(arg)) {
+                return '[' + arg.map((n) => n.toString()).join(', ') + ']'
+              } else {
+                if (Array.isArray(arg.arr)) {            
+                  return `{len: ${arg.len}, arr: [${arg.arr.map((n) => n.toString(16)).join(', ')}]}`
+                } else {
+                  // typed array -- Uint32Array
+                  return `{len: ${arg.len}, arr: [${Array.from(arg.arr).map((n) => n.toString(16)).join(', ')}]}`
+                }
+              }
+            }
+          }
+        </script>
+        <script type="module">
+          mocha.setup('bdd')
+        </script>
+        <script src="./BitSet.js" type="module"></script>
+        <script type="module">
+          mocha.run()
+        </script>
+     </body>
+</html>

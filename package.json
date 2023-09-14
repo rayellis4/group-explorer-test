@@ -18,7 +18,9 @@
     "jquery": "3.4.1"
   },
   "devDependencies": {
-    "flow-bin": "^0.118.0"
+    "chai": "^4.3.8",
+    "flow-bin": "^0.118.0",
+    "mocha": "^10.2.0"
   },
   "standard": {
     "globals": [
