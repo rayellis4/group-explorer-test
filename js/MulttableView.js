@@ -20,8 +20,7 @@ Sheet functions:
     toJSON/fromJSON (putToJSON/setFromJSON)
 */
 
-import GEUtils from './GEUtils.js';
-import * as GEUtilz from './GEUtils.js'
+import * as GEUtils from './GEUtils.js';
 import Log from './Log.js';
 import {broadcastChange} from '../Multtable.js';
 import Subgroup from './Subgroup.js';
@@ -386,7 +385,7 @@ export class MulttableView /*:: implements VizDisplay<MulttableJSON> */ {
                 /*: any */) /*: HTMLCanvasElement */)
 
             const labelCenter = new THREE.Vector2(scale / 2, scale / 2)
-            GEUtilz.htmlToContext($scratch[0], canvas.getContext('2d'), labelCenter)
+            GEUtils.htmlToContext($scratch[0], canvas.getContext('2d'), labelCenter)
 
             this.labelCache[element] = (($(canvas).remove()[0] /*: any */) /*: HTMLCanvasElement */)
         }

@@ -79,7 +79,7 @@ Other visualizers extend the exemplar with different displays in the graphic ele
 (The following code would generally be found in a separate .js file, not in the .html file.)
 ```javascript
       <script type="module">
-       import GEUtils from './js/GEUtils.js';
+       import * as GEUtils from './js/GEUtils.js';
        import * as Library from './js/Library.js';
        import Log from './js/Log.js';
        import * as MathML from './js/MathML.js';

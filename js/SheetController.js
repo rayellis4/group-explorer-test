@@ -2,7 +2,7 @@
 
 /* global TouchEvent */
 
-import GEUtils from './GEUtils.js'
+import * as GEUtils from './GEUtils.js'
 import * as Library from './Library.js'
 import Log from './Log.js'
 import * as Model from './SheetModel.js'

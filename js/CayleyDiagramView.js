@@ -4,7 +4,7 @@ import BitSet from './BitSet.js';
 import {AbstractDiagramDisplay} from './AbstractDiagramDisplay.js';
 import {DEFAULT_LINE_COLOR, DEFAULT_SPHERE_COLOR as DEFAULT_NODE_COLOR} from './AbstractDiagramDisplay.js';
 import {CayleyGeneratorFromStrategy, CayleyGeneratorFromSpec} from './CayleyGenerator.js';
-import GEUtils from './GEUtils.js';
+import * as GEUtils from './GEUtils.js';
 import { htmlToContext } from './GEUtils.js'
 import * as Library from './Library.js';
 import * as MathML from './MathML.js';

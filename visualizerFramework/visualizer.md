@@ -20,7 +20,7 @@ from a visualizer to a Sheet.
 
 ```javascript
  */
-import GEUtils from '../js/GEUtils.js'
+import * as GEUtils from '../js/GEUtils.js'
 import IsomorphicGroups from '../js/IsomorphicGroups.js';
 import Log from '../js/Log.js';
 import XMLGroup from '../js/XMLGroup.js';

@@ -1,7 +1,7 @@
 // @flow
 
 import BitSet from '../js/BitSet.js';
-import GEUtils from '../js/GEUtils.js';
+import * as GEUtils from '../js/GEUtils.js';
 import Log from '../js/Log.js';
 import Menu from '../js/Menu.js';
 import SubgroupFinder from '../js/SubgroupFinder.js';

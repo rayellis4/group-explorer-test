@@ -5,7 +5,7 @@ import {THREE} from '../lib/externals.js';
 import {Group, Cayley_Diagram_View} from '../CayleyDiagram.js';
 import BitSet from '../js/BitSet.js';
 import {CayleyGeneratorFromStrategy, DIRECTION_INDEX, AXIS_NAME} from '../js/CayleyGenerator.js';
-import GEUtils from '../js/GEUtils.js';
+import * as GEUtils from '../js/GEUtils.js';
 import Log from '../js/Log.js';
 import Menu from '../js/Menu.js';
 import Template from '../js/Template.js';

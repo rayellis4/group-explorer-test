@@ -2,7 +2,7 @@
 
 import {Cayley_Diagram_View} from '../CayleyDiagram.js';
 import {CayleyDiagramView} from '../js/CayleyDiagramView.js';
-import GEUtils from './GEUtils.js'
+import * as GEUtils from './GEUtils.js'
 import Log from '../js/Log.js';
 
 export {load, updateFromView};

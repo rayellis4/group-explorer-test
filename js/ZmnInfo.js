@@ -1,7 +1,7 @@
 // @flow
 
 import BasicGroup from './BasicGroup.js';
-import GEUtils from './GEUtils.js'
+import * as GEUtils from './GEUtils.js'
 import IsomorphicGroups from './IsomorphicGroups.js';
 import Log from './Log.js';
 import MathUtils from './MathUtils.js';

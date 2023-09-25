@@ -48,7 +48,7 @@ The styles found in [menus.css](../style/menu.css) are used throughout GE3, over
 in the individual modules.
 ```js
 */
-import GEUtils from './GEUtils.js';
+import * as GEUtils from './GEUtils.js';
 import Template from './Template.js';
 
 /*::

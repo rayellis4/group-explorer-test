@@ -1,7 +1,7 @@
 // @flow
 
 import BitSet from './BitSet.js';
-import GEUtils from './GEUtils.js';
+import * as GEUtils from './GEUtils.js';
 import {CayleyDiagramView} from './CayleyDiagramView.js';
 
 // $FlowFixMe -- external module imports described in flow-typed directory

@@ -2,7 +2,7 @@
 
 import BasicGroup from './BasicGroup.js';
 import {CayleyDiagramView, createUnlabelledCayleyDiagramView} from './CayleyDiagramView.js';
-import GEUtils from './GEUtils.js'
+import * as GEUtils from './GEUtils.js'
 import IsomorphicGroups from './IsomorphicGroups.js';
 import Log from './Log.js';
 import MathUtils from './MathUtils.js';
