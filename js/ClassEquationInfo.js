@@ -3,7 +3,7 @@
 import * as GEUtils from './GEUtils.js';
 import Log from './Log.js';
 import * as SheetModel from './SheetModel.js';
-import Template from './Template.js';
+import * as Template from './Template.js';
 
 export {summary, display};
 

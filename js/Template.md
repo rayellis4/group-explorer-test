@@ -59,10 +59,9 @@ to give the following line in the list of subgroups:
 
 While this example may seem too simple to provide much justification for introducing a sort of arcane use of HTML5 templates, in practice they get considerably more involved. There are quite a number of three-deep floating menus in `subsetDisplay`, for example.
 
-
 ## Template retrieval caching
 
-Since template retrieval is done repeatedly, the actual template retrieval code caches results by template id in a class static variable, as you can see below.
+Since template retrieval is done repeatedly, the actual template retrieval code caches results by template id in an unexported module variable, as you can see below.
 
 ```js
  */
@@ -71,24 +70,18 @@ Since template retrieval is done repeatedly, the actual template retrieval code 
  *   returns the html of template with id = templateId as a `string literal` for subsequent eval'ing
  *   returns the value undefined if template does not exist
  */
-export default
-class Template {
-/*::
-   static _map: Map<string, ?string>;
- */
-   static HTML(templateId /*: string */) /*: ?string */ {
 
-      Template._map = (Template._map === undefined) ? new Map() : Template._map;
+const templateMap /*: Map<string, ?string> */ = new Map()
 
-      let result = Template._map.get(templateId);
-      if (result === undefined) {
-         const $template = $(`template[id="${templateId}"]`);
-         result = ($template.length == 0) ? undefined : '`' + $template.html() + '`';
-         Template._map.set(templateId,  result);
-      };
+export function HTML (templateId /*: string */) /*: ?string */ {
+  let result = templateMap.get(templateId)
+  if (result === undefined) {
+    const $template = $(`template[id="${templateId}"]`)
+    result = ($template.length === 0) ? undefined : '`' + $template.html() + '`'
+    templateMap.set(templateId, result)
+  }
 
-      return result;
-   }
+  return result
 }
 /*
 ```

@@ -1,3 +1,4 @@
+
 /* @flow
 # Menu Handling Utilities
 
@@ -49,7 +50,7 @@ in the individual modules.
 ```js
 */
 import * as GEUtils from './GEUtils.js';
-import Template from './Template.js';
+import * as Template from './Template.js';
 
 /*::
 type MenuTree = {id: string, children?: Array<MenuTree>};

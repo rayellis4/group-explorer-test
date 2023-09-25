@@ -7,7 +7,7 @@ import IsomorphicGroups from './IsomorphicGroups.js';
 import Log from './Log.js';
 import MathUtils from './MathUtils.js';
 import Subgroup from './Subgroup.js';
-import Template from './Template.js';
+import * as Template from './Template.js';
 
 import {actionClickHandler} from '../GroupInfo.js';
 

@@ -4,7 +4,7 @@ import * as GEUtils from './js/GEUtils.js';
 import * as Library from './js/Library.js';
 import Log from './js/Log.js';
 import {SymmetryObjectView, createInteractiveSymmetryObjectView} from './js/SymmetryObjectView.js';
-import Template from './js/Template.js';
+import * as Template from './js/Template.js';
 import * as VC from './visualizerFramework/visualizer.js';
 import XMLGroup from './js/XMLGroup.js';
 

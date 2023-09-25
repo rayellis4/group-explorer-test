@@ -8,7 +8,7 @@ import Log from './js/Log.js';
 import Menu from './js/Menu.js';
 import {MulttableView, createMinimalMulttableView} from './js/MulttableView.js';
 import {SymmetryObjectView, createStaticSymmetryObjectView} from './js/SymmetryObjectView.js';
-import Template from './js/Template.js';
+import * as Template from './js/Template.js';
 import XMLGroup from './js/XMLGroup.js';
 
 // $FlowFixMe -- external module imports described in flow-typed directory

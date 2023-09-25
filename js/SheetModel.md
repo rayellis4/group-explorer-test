@@ -7,7 +7,7 @@ import * as Library from './Library.js'
 import Log from './Log.js'
 import * as MathML from './MathML.js'
 import * as SheetView from './SheetView.js'
-import Template from './Template.js'
+import * as Template from './Template.js'
 import { THREE } from '../lib/externals.js'
 
 export const LISTENER_READY_MESSAGE = 'listener ready' // sent by visualizers on load complete

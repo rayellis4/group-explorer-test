@@ -8,7 +8,7 @@ import {CayleyGeneratorFromStrategy, DIRECTION_INDEX, AXIS_NAME} from '../js/Cay
 import * as GEUtils from '../js/GEUtils.js';
 import Log from '../js/Log.js';
 import Menu from '../js/Menu.js';
-import Template from '../js/Template.js';
+import * as Template from '../js/Template.js';
 
 export {load, update};
 

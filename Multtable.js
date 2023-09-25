@@ -6,7 +6,7 @@ import Log from './js/Log.js';
 import Menu from './js/Menu.js';
 import {MulttableView, createFullMulttableView} from './js/MulttableView.js';
 import {LISTENER_READY_MESSAGE, STATE_LOADED_MESSAGE} from './js/SheetModel.js';
-import Template from './js/Template.js';
+import * as Template from './js/Template.js';
 import XMLGroup from './js/XMLGroup.js';
 
 import * as SSD from './js/SubsetHighlightController.js';

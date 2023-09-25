@@ -7,7 +7,7 @@ import { createMinimalMulttableView } from './js/MulttableView.js';
 import * as SheetModel from './js/SheetModel.js';
 import * as ShowGAPCode from './js/ShowGAPCode.js'
 import { createStaticSymmetryObjectView } from './js/SymmetryObjectView.js';
-import Template from './js/Template.js';
+import * as Template from './js/Template.js';
 
 /*::
   import {CayleyDiagramView} from './js/CayleyDiagramView.js';

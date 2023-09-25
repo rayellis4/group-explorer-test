@@ -5,6 +5,7 @@
     </head>
     <body>
         <div id="mocha"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <script src="../node_modules/mocha/mocha.js"></script>
         <script src="../node_modules/chai/chai.js"></script>
         <script>
@@ -35,8 +36,10 @@
         </script>
         <script src="./BitSet.js" type="module"></script>
         <script src="./GEUtils.js" type="module"></script>
+        <script src="./Template.js" type="module"></script>
         <script type="module">
           mocha.run()
         </script>
+        <template id="testTemplate">Test template</template>
      </body>
 </html>

@@ -6,7 +6,7 @@ import IsomorphicGroups from './IsomorphicGroups.js';
 import Log from './Log.js';
 import MathUtils from './MathUtils.js';
 import * as SheetModel from './SheetModel.js';
-import Template from './Template.js';
+import * as Template from './Template.js';
 
 export {summary, display, showZmnIsomorphismSheet, showNoZmnIsomorphismSheet};
 

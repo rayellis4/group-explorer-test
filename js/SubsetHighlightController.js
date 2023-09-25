@@ -5,7 +5,7 @@ import * as GEUtils from '../js/GEUtils.js';
 import Log from '../js/Log.js';
 import Menu from '../js/Menu.js';
 import SubgroupFinder from '../js/SubgroupFinder.js';
-import Template from '../js/Template.js';
+import * as Template from '../js/Template.js';
 import XMLGroup from '../js/XMLGroup.js';
 
 export {load};
