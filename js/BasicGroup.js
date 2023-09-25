@@ -7,7 +7,7 @@
  */
 import BitSet from './BitSet.js';
 import * as DefiningRelations from './DefiningRelations.js';
-import MathUtils from './MathUtils.js';
+import * as MathUtils from './MathUtils.js';
 import Subgroup from './Subgroup.js';
 import SubgroupFinder from './SubgroupFinder.js';
 

@@ -5,7 +5,7 @@ import {CayleyDiagramView, createUnlabelledCayleyDiagramView} from './CayleyDiag
 import * as GEUtils from './GEUtils.js'
 import IsomorphicGroups from './IsomorphicGroups.js';
 import * as Log from './Log.js';
-import MathUtils from './MathUtils.js';
+import * as MathUtils from './MathUtils.js';
 import Subgroup from './Subgroup.js';
 import * as Template from './Template.js';
 

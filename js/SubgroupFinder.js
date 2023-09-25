@@ -3,7 +3,7 @@
  * Function returns subgroups of group as array of BitSets
  */
 
-import MathUtils from './MathUtils.js';
+import * as MathUtils from './MathUtils.js';
 import BasicGroup from './BasicGroup.js';
 import BitSet from './BitSet.js';
 import Subgroup from './Subgroup.js';
