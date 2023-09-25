@@ -2,7 +2,7 @@
 
 import {broadcastChange} from '../CycleGraph.js';
 import * as GEUtils from './GEUtils.js'
-import Log from './Log.js';
+import * as Log from './Log.js';
 import XMLGroup from './XMLGroup.js';
 
 // $FlowFixMe -- external module imports described in flow-typed directory

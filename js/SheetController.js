@@ -4,7 +4,7 @@
 
 import * as GEUtils from './GEUtils.js'
 import * as Library from './Library.js'
-import Log from './Log.js'
+import * as Log from './Log.js'
 import * as Model from './SheetModel.js'
 import { THREE } from '../lib/externals.js' // used in html action
 import * as View from './SheetView.js'

@@ -1,7 +1,7 @@
 // @flow
 
 import * as GEUtils from './GEUtils.js'
-import Log from './Log.js';
+import * as Log from './Log.js';
 import * as Template from './Template.js';
 
 export {summary, display};

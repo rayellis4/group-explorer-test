@@ -4,7 +4,7 @@ import BasicGroup from './BasicGroup.js';
 import {CayleyDiagramView, createUnlabelledCayleyDiagramView} from './CayleyDiagramView.js';
 import * as GEUtils from './GEUtils.js'
 import IsomorphicGroups from './IsomorphicGroups.js';
-import Log from './Log.js';
+import * as Log from './Log.js';
 import MathUtils from './MathUtils.js';
 import Subgroup from './Subgroup.js';
 import * as Template from './Template.js';

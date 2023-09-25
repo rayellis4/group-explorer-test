@@ -28,7 +28,7 @@
  */
 
 import * as Migration from './Migration.js' // causes module load-time check whether this page should be reloaded
-import Log from './Log.js'
+import * as Log from './Log.js'
 import * as MathML from './MathML.js'
 import { LISTENER_READY_MESSAGE, STATE_LOADED_MESSAGE } from './SheetModel.js'
 import XMLGroup from './XMLGroup.js'

@@ -21,7 +21,7 @@ Sheet functions:
 */
 
 import * as GEUtils from './GEUtils.js';
-import Log from './Log.js';
+import * as Log from './Log.js';
 import {broadcastChange} from '../Multtable.js';
 import Subgroup from './Subgroup.js';
 import XMLGroup from './XMLGroup.js';

@@ -81,7 +81,7 @@ Other visualizers extend the exemplar with different displays in the graphic ele
       <script type="module">
        import * as GEUtils from './js/GEUtils.js';
        import * as Library from './js/Library.js';
-       import Log from './js/Log.js';
+       import * as Log from './js/Log.js';
        import * as MathML from './js/MathML.js';
        import * as Template from './js/Template.js';
        import * as VC from './visualizerFramework/visualizer.js';

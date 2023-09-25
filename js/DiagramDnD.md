@@ -40,7 +40,7 @@ next execution of the AbstractDiagramDisplay `render()` routine.
 
 ```js
 */
-import Log from './Log.js';
+import * as Log from './Log.js';
 
 // $FlowFixMe -- external module imports described in flow-typed directory
 import {THREE} from '../lib/externals.js';

@@ -2,7 +2,7 @@
 
 import * as GEUtils from './js/GEUtils.js';
 import * as Library from './js/Library.js';
-import Log from './js/Log.js';
+import * as Log from './js/Log.js';
 import Menu from './js/Menu.js';
 import {MulttableView, createFullMulttableView} from './js/MulttableView.js';
 import {LISTENER_READY_MESSAGE, STATE_LOADED_MESSAGE} from './js/SheetModel.js';

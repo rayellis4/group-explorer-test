@@ -5,7 +5,7 @@ import BitSet from './BitSet.js';
 import IsomorphicGroups from './IsomorphicGroups.js';
 import * as GEUtils from './GEUtils.js'
 import * as Library from './Library.js';
-import Log from './Log.js';
+import * as Log from './Log.js';
 import * as Template from './Template.js';
 
 import {DEFAULT_SPHERE_COLOR} from './AbstractDiagramDisplay.js';

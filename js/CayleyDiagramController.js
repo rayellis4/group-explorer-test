@@ -6,7 +6,7 @@ import {Group, Cayley_Diagram_View} from '../CayleyDiagram.js';
 import BitSet from '../js/BitSet.js';
 import {CayleyGeneratorFromStrategy, DIRECTION_INDEX, AXIS_NAME} from '../js/CayleyGenerator.js';
 import * as GEUtils from '../js/GEUtils.js';
-import Log from '../js/Log.js';
+import * as Log from '../js/Log.js';
 import Menu from '../js/Menu.js';
 import * as Template from '../js/Template.js';
 

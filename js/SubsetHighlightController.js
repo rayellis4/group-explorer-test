@@ -2,7 +2,7 @@
 
 import BitSet from '../js/BitSet.js';
 import * as GEUtils from '../js/GEUtils.js';
-import Log from '../js/Log.js';
+import * as Log from '../js/Log.js';
 import Menu from '../js/Menu.js';
 import SubgroupFinder from '../js/SubgroupFinder.js';
 import * as Template from '../js/Template.js';
