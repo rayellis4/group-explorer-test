@@ -1,1 +1,1 @@
-Template.md
+../docs/Template.js.md

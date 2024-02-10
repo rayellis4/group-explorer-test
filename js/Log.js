@@ -1,1 +1,1 @@
-Log.md
+../docs/Log.js.md

@@ -1,1 +1,1 @@
-BitSet.md
+../docs/BitSet.js.md

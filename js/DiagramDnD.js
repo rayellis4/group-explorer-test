@@ -1,1 +1,1 @@
-DiagramDnD.md
+../docs/DiagramDnD.js.md

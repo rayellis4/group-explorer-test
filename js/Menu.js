@@ -1,1 +1,1 @@
-Menu.md
+../docs/Menu.js.md
